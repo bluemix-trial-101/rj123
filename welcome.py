@@ -26,7 +26,7 @@ def WelcomeToMyapp():
     return 'Welcome again to my app running on Bluemix!'
 
 @app.route('/srom')
-def WelcomeToMyapp():
+def WelcomeToSROM():
     return 'Welcome again to my SROM app running on Bluemix!'
 
 
