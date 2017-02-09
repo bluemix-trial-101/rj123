@@ -25,6 +25,11 @@ def Welcome():
 def WelcomeToMyapp():
     return 'Welcome again to my app running on Bluemix!'
 
+@app.route('/srom')
+def WelcomeToMyapp():
+    return 'Welcome again to my SROM app running on Bluemix!'
+
+
 @app.route('/api/people')
 def GetPeople():
     list = [
